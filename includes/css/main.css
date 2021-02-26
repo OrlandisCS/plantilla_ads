@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+html {
+  box-sizing: border-box !important;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit !important;
+}
+
+/* Scroll */
+body::-webkit-scrollbar {
+  width: 8px;
+  transition: 0.3s;
+}
+
+/* Estilos barra (thumb) de scroll */
+
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #ef2d20;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos track de scroll */
+body::-webkit-scrollbar-track {
+  background: #ddf0ff;
+  height: 100%;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #ddf0f0;
+}
+.span {
+  position: absolute;
+  margin-left: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.span i {
+  font-size: 1.1rem;
+}
+.input-span {
+  padding-left: 30px;
+}
+.input-span:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.redes {
+  background: #455a64;
+  display: inline-block;
+  position: fixed;
+  z-index: 99;
+  top: 80px;
+  left: -120px;
+  transition: all 0.3s ease-in-out;
+}
+.redes i {
+  font-size: 2em;
+  padding: 10px 8px;
+  border-radius: 25px;
+  display: block;
+  margin: 5px 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.bnt-social i {
+  font-size: 2em;
+  padding: 10px 8px;
+}
+.redes .facebook {
+  color: #4267b2;
+}
+.redes .twitter {
+  color: #1da1f2;
+}
+
+.redes .whatsapp {
+  color: #4ac959;
+}
+.redes .instagram {
+  color: #cc2366;
+}
+.redes i:hover {
+  color: #ffffff;
+}
+
+
+.profile{
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.subir_arriba{
+  background: #455a64;
+  display: inline-block;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  bottom: -50px;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.subir_arriba i{
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.errorForm{
+  border: 1.5px solid red!important;
+}
